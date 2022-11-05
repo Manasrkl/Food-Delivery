@@ -1,0 +1,75 @@
+#navbar{
+    flex-direction: column;
+}
+#home{
+height: 347px;
+
+}
+#home::before{
+    height: 55%;
+    background-size: cover;
+    width: 147%;
+
+    }
+#home p{
+    font-size: 13px;
+
+}    
+#services{
+    flex-direction: column;
+    margin: 38px;
+}
+#services .box{
+    width: 383px;
+}
+#clients{
+    margin-left: 127px;
+}
+
+#clients img{
+    width: 46px;
+    padding: 1px;
+    
+}
+.h-primary {
+    height: 1px;
+    font-size: 1.8rem;
+    padding: 72px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1 .h-primary center{
+    margin-left: 30px;
+}
+
+#logo {
+    margin: -18px 14px;
+}
+#client-section::before{
+    width: 149%;
+}
+.btn {
+    padding: 15px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    border-radius: 24px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 188px;
+}
+#contact::before{
+    width: 490px;
+}
+#contact-box form {
+    width: 100%;
+    margin-left: 49px;
+    margin-right: -97px;
+}
+footer .center{
+    background-color: black;
+    color: white;
+     padding: 9px 20px;
+     background-size: cover; 
+    
+}
